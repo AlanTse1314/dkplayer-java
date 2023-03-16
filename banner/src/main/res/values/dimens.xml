@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="titleSize">14sp</dimen>
+    <dimen name="sp14" >14sp</dimen>
+    <dimen name="dp3" >3dp</dimen>
+    <dimen name="dp17" >17dp</dimen>
+    <dimen name="dp0" >0dp</dimen>
+    <dimen name="dp100" >100dp</dimen>
+    <dimen name="dp34" >34dp</dimen>
+    <dimen name="dp10" >10dp</dimen>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlyt_viewpager"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent">
+
+    <com.alan.banner.viewpage.AutoScrollViewPager
+        android:id="@+id/viewpager_content"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <LinearLayout
+        android:background="@drawable/shape_gray_to_trans"
+        android:id="@+id/llyt_indicator"
+        android:layout_alignParentBottom="true"
+        android:layout_height="34dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_indicator_title"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <com.alan.banner.indicator.CirclePageIndicator
+            android:background="@android:color/transparent"
+            android:id="@+id/viewpager_indicator"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_width="100dp"
+            android:paddingTop="17dp"
+            app:fillColor="#ff00a2ff"
+            app:pageColor="#ff666666"
+            app:radius="3dp"
+            app:strokeColor="@android:color/transparent"
+            app:strokeWidth="0dp" />
+    </LinearLayout>
+</RelativeLayout>
+
