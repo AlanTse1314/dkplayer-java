@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_46"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_10"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@null"
+            android:max="1000"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:progressDrawable="@drawable/dkplayer_layer_progress_bar"
+            android:thumb="@drawable/dkplayer_seekbar_thumb"
+            android:thumbOffset="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_36"
+            android:background="@drawable/dkplayer_shape_stardard_controller_bottom_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="@dimen/dp_35"
+                android:layout_height="match_parent"
+                android:padding="@dimen/dp_4_5"
+                android:src="@drawable/dkplayer_selector_play_button" />
+
+            <ImageView
+                android:id="@+id/iv_next"
+                android:layout_width="@dimen/dp_35"
+                android:layout_height="match_parent"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/album_play_next" />
+
+            <TextView
+                android:id="@+id/curr_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" / "
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/total_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_14" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/tv_xj"
+                android:layout_width="@dimen/dkplayer_controller_height"
+                android:layout_height="@dimen/dkplayer_controller_height"
+                android:padding="@dimen/dp_8"
+                android:src="@drawable/xuanji" />
+
+            <ImageView
+                android:id="@+id/fullscreen"
+                android:layout_width="@dimen/dkplayer_controller_height"
+                android:layout_height="@dimen/dkplayer_controller_height"
+                android:layout_marginEnd="@dimen/dp_6"
+                android:padding="@dimen/dkplayer_controller_icon_padding"
+                android:src="@drawable/dkplayer_selector_full_screen_button" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/bottom_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:layout_gravity="bottom"
+        android:max="1000"
+        android:progressDrawable="@drawable/dkplayer_layer_progress_bar"
+        android:visibility="gone" />
+</FrameLayout>

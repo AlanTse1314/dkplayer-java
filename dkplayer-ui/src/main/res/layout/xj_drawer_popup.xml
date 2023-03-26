@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#4d000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_35"
+        android:gravity="center"
+        android:text="选集播放"
+        android:textColor="@color/two"
+        android:textSize="@dimen/sp_16" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_xj"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dp_5"
+        android:layout_marginEnd="@dimen/dp_5" />
+</LinearLayout>

@@ -16,7 +16,25 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+            <xyz.doikki.videoplayer.player.VideoView
+                android:id="@+id/player"
+                android:layout_width="match_parent"
+                android:layout_height="222dp" />
 
+
+<!--            <com.example.video.VideoPlayer-->
+<!--                android:id="@+id/play"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="200dp"/>-->
+            <EditText
+                android:id="@+id/input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="开始播放"/>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -29,10 +47,10 @@
                 app:cardCornerRadius="5dp"
                 app:cardElevation="0dp">
 
-                <com.alan.banner.Banner
-                    android:id="@+id/banner"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+<!--                <com.alan.banner.Banner-->
+<!--                    android:id="@+id/banner"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent" />-->
 
             </androidx.cardview.widget.CardView>
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dkplayer_theme_color">#39C5BB</color>
+    <color name="dkplayer_theme_color_translucent">#9939C5BB</color>
+    <color name="dkplayer_background_color">#4D000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="two">#F98B56</color>
+    <color name="colorAccent">#F37B68</color>
+    <color name="gray">#F8F8F8</color>
+    <color name="textcolo">#000000</color>
+    <color name="black">#000000</color>
+    <color name="edit_text_colo">#A1A1A1</color>
+    <color name="colorPrimary">#786FA6</color>
+    <color name="edit_bg">#FFFFFF</color>
+</resources>

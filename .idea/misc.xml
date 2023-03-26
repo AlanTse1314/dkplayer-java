@@ -3,9 +3,43 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AS/work/AlanLibraryDemo/app/src/main/res/drawable/background_speed.xml" value="0.26979166666666665" />
         <entry key="..\:/AS/work/AlanLibraryDemo/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/AS/work/AlanLibraryDemo/banner/src/main/res/drawable/shape_gray_to_trans.xml" value="0.19537037037037036" />
         <entry key="..\:/AS/work/AlanLibraryDemo/banner/src/main/res/layout/item_banner_img.xml" value="0.2" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-java/src/main/res/drawable/dkplayer_seekbar_thumb.xml" value="0.20277777777777778" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-java/src/main/res/drawable/dkplayer_seekbar_thumb_pressed.xml" value="0.20277777777777778" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/drawable/background_bt.xml" value="0.24537037037037038" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/drawable/dkplayer_layer_progress_bar.xml" value="0.1" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/drawable/dkplayer_seekbar_thumb.xml" value="0.1" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/drawable/dkplayer_seekbar_thumb_normal.xml" value="0.1" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/drawable/dkplayer_seekbar_thumb_pressed.xml" value="0.1" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/drawable/editsource_shape.xml" value="0.24537037037037038" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/drawable/loading.xml" value="0.16041666666666668" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/drawable/xj_background.xml" value="0.24074074074074073" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/layout/adapter_item_tag.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/layout/adapter_item_tag_sd.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/layout/dkplayer_layout_standard_controller.xml" value="0.14427083333333332" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/layout/dkplayer_layout_title_view.xml" value="0.1" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/layout/dkplayer_layout_vod_control_view.xml" value="0.5769828926905132" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/layout/pw_popup.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/dkplayer-ui/src/main/res/layout/xj_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_bottom_seek_poster.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_bottom_seek_progress.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_dialog_progress_bg.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_dialog_toup_bg.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_play_pause_port.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_polyv_ff_corners.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_progress_red.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_retry.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_seek_poster_normal.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_seek_poster_pressed.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/drawable/sy_widget_loadingbar_bg.xml" value="0.26979166666666665" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/layout/layout_video_bottom.xml" value="0.1" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/layout/sy_layout_std.xml" value="0.25377800937988537" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/layout/sy_layout_std_bottom.xml" value="0.4001937984496124" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/layout/sy_toup_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/AlanLibraryDemo/video/src/main/res/layout/sy_toup_layout.xml" value="0.3827618164967563" />
       </map>
     </option>
   </component>

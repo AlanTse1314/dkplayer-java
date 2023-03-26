@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_pop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a000000"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/ll_bfsz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dp_m_30"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:text="播放设置"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="追剧模式"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp_13" />
+
+            <Switch
+                android:id="@+id/s_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_50" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/dp_50"
+                android:gravity="center"
+                android:text="隐藏进度条"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp_13" />
+
+            <Switch
+                android:id="@+id/s_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_36" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="跳过片头"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp_13" />
+
+            <Switch
+                android:id="@+id/bt_tgpt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_50" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/dp_50"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/sp_13"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="跳过片尾"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp_13" />
+
+            <Switch
+                android:id="@+id/bt_tgpw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_50" />
+
+            <TextView
+                android:id="@+id/tv_pw_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/dp_50"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/sp_13"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_2"
+                android:layout_marginRight="@dimen/dp_50"
+                android:text="播放速度"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp_13" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rl_sd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_2"
+                android:layout_marginRight="@dimen/dp_50"
+                android:text="显示模式"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp_13" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rl_xs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

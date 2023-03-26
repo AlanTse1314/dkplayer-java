@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <size
+        android:width="@dimen/step_width"
+        android:height="@dimen/step_height" />
+    <solid android:color="@color/dialog_bj" />
+    <corners android:radius="@dimen/step_rounded" />
+</shape>

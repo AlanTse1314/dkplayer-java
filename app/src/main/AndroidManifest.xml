@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.alanlibrary">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,6 +15,7 @@
         android:theme="@style/Theme.AlanLibraryDemo">
         <activity
             android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

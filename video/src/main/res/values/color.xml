@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cache_progress">#9563ED</color>
+    <color name="progress">#f85959</color>
+    <color name="dialog_bj">#72000000</color>
+</resources>

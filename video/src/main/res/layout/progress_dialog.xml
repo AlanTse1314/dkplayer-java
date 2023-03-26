@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="#60000000"
+    android:focusable="false">
+    <RelativeLayout
+        android:id="@+id/gen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textColor="@color/progress"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/progress"
+                android:text="00:00"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/video_par"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_alignBottom="@+id/main"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/progress_block_height"
+            android:max="100"
+            android:progress="100"
+            android:progressDrawable="@drawable/progress_red" />
+
+    </RelativeLayout>
+</RelativeLayout>

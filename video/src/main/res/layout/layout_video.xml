@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:clickable="true"
+    android:descendantFocusability="afterDescendants"
+    android:focusable="true">
+
+    <com.example.video.view.PlayFrameLayout
+        android:id="@+id/surface_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/dialog_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:focusable="false" />
+
+    <com.example.video.view.SYTouchSpeedLayout
+        android:id="@+id/player_speed_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <com.example.video.view.TopMain
+        android:id="@+id/top_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.video.view.BottomMain
+        android:id="@+id/bottom_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/tv_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/retry_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:focusable="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:text="@string/load_failed"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/retry_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/retry"
+            android:paddingLeft="9dp"
+            android:paddingTop="4dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="4dp"
+            android:text="@string/retry_url"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/loading"
+        android:layout_width="@dimen/loading_width"
+        android:layout_height="2.0dip"
+        android:background="@drawable/widget_loadingbar_bg"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"/>
+
+    <include
+        android:id="@+id/touping_main"
+        layout="@layout/toup_layout"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,6 +1,7 @@
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven { url 'https://jitpack.io' }
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
@@ -9,3 +10,10 @@ dependencyResolutionManagement {
 rootProject.name = "AlanLibrary-Demo"
 include ':app'
 include ':banner'
+include ':video'
+include ':dkplayer-videocache'
+include ':dkplayer-java'
+include ':dkplayer-ui'
+//include ':dkplayer-players-ijk'
+//include ':dkplayer-players'
+//include ':dkplayer-java'
