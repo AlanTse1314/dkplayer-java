@@ -267,12 +267,12 @@ public class VodControlView extends FrameLayout implements IControlComponent, Vi
             case VideoView.STATE_BUFFERING:
                 mPlayButton.setSelected(mControlWrapper.isPlaying());
                 // 停止刷新进度
-//                mControlWrapper.stopProgress();
+                mControlWrapper.stopProgress();
                 break;
             case VideoView.STATE_BUFFERED:
                 mPlayButton.setSelected(mControlWrapper.isPlaying());
                 //开始刷新进度
-//                mControlWrapper.startProgress();
+                mControlWrapper.startProgress();
                 break;
         }
     }
