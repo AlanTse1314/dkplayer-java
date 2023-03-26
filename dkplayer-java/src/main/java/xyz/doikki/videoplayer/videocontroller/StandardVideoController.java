@@ -122,12 +122,16 @@ public class StandardVideoController extends GestureVideoController implements V
 //            "依次输入命令上传代码",
 //            "逗比逗比把本地项目代码复制到拷贝的仓库",
 //    };
-
+    TitleView titleView;
+    public void setTitle(String title) {
+        titleView.setTitle(title);
+    }
     /**
      * 快速添加各个组件
      * @param title  标题
      * @param isLive 是否为直播
      */
+
     public void addDefaultControlComponent(String title, boolean isLive) {
 //        List<JSBean> s=new ArrayList<>();
 //        int i=0;
@@ -145,7 +149,7 @@ public class StandardVideoController extends GestureVideoController implements V
         ErrorView errorView = new ErrorView(getContext());
         PrepareView prepareView = new PrepareView(getContext());
         prepareView.setClickStart();
-        TitleView titleView = new TitleView(getContext());
+         titleView = new TitleView(getContext());
         titleView.setTitle(title);
         addControlComponent(completeView, errorView, prepareView, titleView);
         if (isLive) {

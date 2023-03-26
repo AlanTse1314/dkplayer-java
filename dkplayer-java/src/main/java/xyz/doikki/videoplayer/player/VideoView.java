@@ -643,6 +643,7 @@ public class VideoView<P extends AbstractPlayer> extends FrameLayout
      * 设置视频地址
      */
     public void setUrl(String url,String title) {
+        controller.setTitle(title);
         controller.setData(url,title);
         setUrl(url, (Map<String, String>)null);
     }
@@ -673,6 +674,7 @@ public class VideoView<P extends AbstractPlayer> extends FrameLayout
      * @param headers 请求头
      */
     public void setUrl(String url, Map<String, String> headers) {
+
         mAssetFileDescriptor = null;
         mUrl = url;
         mHeaders = headers;
@@ -1130,10 +1132,10 @@ public class VideoView<P extends AbstractPlayer> extends FrameLayout
             post(() -> {
                 if (dataSource != null) {
                     dataSource.setUrl(url);
-                    dataSource.setTitle(title);
+//                    dataSource.setTitle(title);
                     dataSource.sniffing = false;
                     dataSource.setHeaderMap(hashMap);
-                    setUrl(url,title);
+                    setUrl(url,dataSource.title);
                     start();
                     //开始播放
 //                    startVideo();

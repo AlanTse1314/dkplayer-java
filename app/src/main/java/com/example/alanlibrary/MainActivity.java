@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 //        videoView.setVideoController(controller); //设置控制器
 //        videoView.start(); //开始播放，不调用则不自动播放
 
-
+//        videoView.setPlayerFactory(ExoMediaPlayerFactory.create());
         Button button = findViewById(R.id.start);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

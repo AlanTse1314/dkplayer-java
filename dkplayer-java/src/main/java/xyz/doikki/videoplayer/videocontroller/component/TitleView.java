@@ -8,6 +8,7 @@ import android.content.IntentFilter;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.Animation;
@@ -503,6 +504,10 @@ public class TitleView extends FrameLayout implements IControlComponent {
                 setVisibility(GONE);
                 break;
         }
+        this.tvQxd.setText(mControlWrapper.getVideoSize()[0] + "*" +mControlWrapper.getVideoSize()[1]);
+//        Log.e("视频尺寸：",mControlWrapper.getVideoSize());
+        this.mControlWrapper.setSpeed(this.s[this.f6520j]);
+        this.mControlWrapper.setScreenScaleType(this.r[this.f6521k]);
     }
 
     @Override

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<level-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/jz_battery_level_10" android:minLevel="0" android:maxLevel="5"/>
-    <item android:drawable="@drawable/jz_battery_level_30" android:minLevel="5" android:maxLevel="10"/>
-    <item android:drawable="@drawable/jz_battery_level_50" android:minLevel="10" android:maxLevel="30"/>
-    <item android:drawable="@drawable/jz_battery_level_70" android:minLevel="30" android:maxLevel="50"/>
-    <item android:drawable="@drawable/jz_battery_level_90" android:minLevel="50" android:maxLevel="80"/>
-    <item android:drawable="@drawable/jz_battery_level_100" android:minLevel="80" android:maxLevel="100"/>
-</level-list>
