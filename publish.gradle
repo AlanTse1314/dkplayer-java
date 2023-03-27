@@ -1,8 +1,18 @@
+apply plugin: 'maven-publish'
 
-
-
-
-
-
-
+group = 'com.github.alantse1314'
+version = '1.0'
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.danikula.videocache'
+                artifactId = 'videocache'
+                version = '1.0'
+            }
+        }
+    }
+}
 
